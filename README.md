@@ -4,7 +4,7 @@ This repository contains code for the paper
 "Variational Combinatorial Sequential Monte Carlo for Bayesian Phylogenetics in Hyperbolic Space"
 by Alex Chen, Philippe Chlenski, Kenneth Munyuza, Antonio Khalil Moretti, Christian A. Naesseth, and Itsik Pe'er.
 
-The paper has been accepted to AISTATS 2025.
+The paper has been [accepted to AISTATS 2025](https://openreview.net/forum?id=29cqyUl2bI).
 
 # Setup
 
