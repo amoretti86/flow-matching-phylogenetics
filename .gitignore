@@ -1,0 +1,10 @@
+__pycache__
+.venv
+.conda
+.DS_Store
+*.egg-info
+outputs
+dev
+checkpoints
+wandb
+data/simulated.phy

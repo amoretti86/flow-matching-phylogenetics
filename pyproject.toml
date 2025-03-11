@@ -1,0 +1,37 @@
+[project]
+name = "vcsmc"
+version = "0.0.1"
+description = "Variational Combined Sequential Monte Carlo"
+readme = "README.md"
+authors = [
+    { name="Alex Chen", email="azc2110@columbia.edu" },
+    { name="Antonio Moretti", email="am4134@columbia.edu" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    # sort these alphabetically
+    "bio",
+    "drawsvg[raster]",
+    "geoopt",
+    "hyperbolic",
+    "ipykernel",
+    "ipywidgets",
+    "matplotlib",
+    "notebook",
+    "numpy",
+    "scipy",
+    "torch",
+    "tqdm",
+    "typer",
+    "wandb",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["vcsmc", "scripts"]
+
+[tool.isort]
+profile = "black"
